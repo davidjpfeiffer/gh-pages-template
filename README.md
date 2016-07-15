@@ -15,3 +15,8 @@ A simple, customizable, and scalable Github Pages template
 - Gulp
 - jQuery
 - Bootstrap
+- SASS
+
+### License
+
+MIT
