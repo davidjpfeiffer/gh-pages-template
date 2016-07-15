@@ -1,0 +1,13 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin respond-to($break) {
+  @media (min-width: $break) {
+    @content;
+  }
+}

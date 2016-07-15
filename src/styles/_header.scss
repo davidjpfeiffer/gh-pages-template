@@ -1,0 +1,45 @@
+header {
+  background-color: $color-primary;
+  border-bottom: 4px solid darken($color-primary, 5%);
+  text-align: center;
+  padding: 40px;
+  color: $color-white;
+  margin-bottom: 20px;
+
+  h1 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  @include respond-to($md-break) {
+    padding: 50px;
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 15px;
+      margin-bottom: 30px;
+    }
+  }
+
+  @include respond-to($lg-break) {
+    padding: 70px;
+
+    h1 {
+      font-size: 35px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+}

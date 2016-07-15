@@ -1,0 +1,31 @@
+body {
+  padding-top: 51px;
+}
+
+.navbar-fixed-top {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+}
+
+.btn + .btn {
+  margin-top: 10px;
+}
+
+@include respond-to($sm-break) {
+  .btn {
+    display: inline-block;
+    width: initial;
+  }
+
+  .btn + .btn {
+    margin-top: initial;
+  }
+}
