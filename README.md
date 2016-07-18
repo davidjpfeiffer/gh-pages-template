@@ -1,5 +1,5 @@
 # Github Pages Template
-A simple, customizable, and scalable Github Pages template
+A simple Github Pages template
 
 ### Features
 
