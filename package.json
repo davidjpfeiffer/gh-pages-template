@@ -4,7 +4,8 @@
   "description": "A simple, customizable, and scalable Github Pages template",
   "main": "gulpfile.js",
   "scripts": {
-    "serve": "gulp build--dev && gulp watch"
+    "serve": "gulp build--dev && gulp watch",
+    "deploy": "gulp build--prod && git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
