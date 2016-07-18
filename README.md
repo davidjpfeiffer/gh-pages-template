@@ -1,5 +1,6 @@
 # Github Pages Template
-A simple Github Pages template
+
+A simple, customizable, and free Github Pages template
 
 ### Features
 
@@ -16,7 +17,3 @@ A simple Github Pages template
 - jQuery
 - Bootstrap
 - SASS
-
-### License
-
-MIT
