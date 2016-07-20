@@ -1,11 +1,8 @@
-@import 'normalize';
-
-@import 'variables';
 @import 'functions';
+@import 'variables';
 @import 'mixins';
-@import 'fonts';
 
-@import 'bootstrap';
+@import 'bootstrap-config';
 
 @import 'typography';
 @import 'header';
