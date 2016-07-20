@@ -355,11 +355,11 @@ th {
 
 @font-face {
   font-family: "Roboto";
-  src: url(/assets/fonts/Roboto/Roboto-Regular.ttf) format("truetype"); }
+  src: url(../assets/fonts/Roboto/Roboto-Regular.ttf) format("truetype"); }
 
 @font-face {
   font-family: "Roboto Slab";
-  src: url(/assets/fonts/Roboto_Slab/RobotoSlab-Bold.ttf) format("truetype"); }
+  src: url(../assets/fonts/Roboto_Slab/RobotoSlab-Bold.ttf) format("truetype"); }
 
 body {
   padding-top: 51px; }
