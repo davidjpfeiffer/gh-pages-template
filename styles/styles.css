@@ -61,11 +61,32 @@ header {
       header p {
         font-size: 20px; } }
 
-footer {
+.top-footer {
   background-color: #222;
   color: #eee;
-  padding: 20px 0; }
-  footer p {
-    font-size: 15px;
-    padding: 5px 0;
+  padding: 20px 0;
+  font-weight: bold; }
+  .top-footer a {
+    padding: 8px 0;
+    display: block; }
+  .top-footer p, .top-footer h6 {
     margin: 0; }
+  .top-footer p {
+    font-size: 16px; }
+  .top-footer h6 {
+    font-size: 20px;
+    padding: 10px 0;
+    border-bottom: 4px solid #333; }
+  .top-footer a:hover {
+    text-decoration: none; }
+  .top-footer [class^="col"] {
+    padding: 20px; }
+
+.bottom-footer {
+  background-color: #111;
+  padding: 20px 0; }
+  .bottom-footer h6 {
+    font-size: 15px;
+    margin: 0;
+    color: #eee;
+    font-weight: bold; }
