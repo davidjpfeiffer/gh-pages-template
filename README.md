@@ -4,7 +4,7 @@ A simple, customizable, and free Github Pages template
 
 ### Getting Started
 
-To get started you must download the project, navigate to the project directory, install NPM packages, run a development build, and run a watch. The last two commands can be executed using the serve script.
+To get started you must download the project, navigate to the project directory, install NPM packages, and run the serve script.
 
 ```
 git pull https://github.com/davidjpfeiffer/gh-pages-template/
