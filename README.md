@@ -1,6 +1,6 @@
-# GitHub Pages Template
+# Github Pages Template
 
-A simple, customizable, and free GitHub Pages template
+A simple, customizable, and free Github Pages template
 
 ### Getting Started
 
@@ -18,7 +18,7 @@ npm run serve
 
 ### Development Environment
 
-This project the Node Package Manager to manage project dependencies. You must install Node and NPM to build this project. One of the NPM packages that this project uses is a task runner program named Gulp. These development tools help developers rapidly develop and deploy projects to production.
+This project uses the Node Package Manager (NPM) to manage project dependencies. You must install Node and NPM to build this project. One of the NPM packages that this project uses is a task runner program called Gulp. These development tools help developers rapidly develop and deploy projects to production.
 
 #### Development Builds
 
@@ -38,7 +38,7 @@ gulp build--prod
 
 #### Watch
 
-The Gulp watch task will open the website in a browser and watch for changes. When a file is changed, it will re-build the project with only the changed file, inject the updated code into the browser, and refresh the browser for you all within a few miliseconds. You should always run a development build before a Gulp watch.
+The Gulp watch task will open the website in a browser and watch for changes. When a file is changed, it will re-build only the changed files, inject the updated code into the browser, and refresh the browser for you all within a few miliseconds. You should always run a development build before a Gulp watch.
 
 ```
 gulp build--dev
@@ -53,15 +53,22 @@ You can use NPM scripts to execute multiple commands with a single command. This
 npm run serve
 ```
 
-### Deploying to GitHub Pages
+is equivalent to
 
-You can deploy your website to GitHub Pages using the deploy script. Before you can use this script, you must first make the dist directory a subtree within your git repository. You can do this using the setupsubtree script. This command should only be run once per git repository. For example, if you download the source files for this project and create a new git repository with those files, you will have to run the setupsubtree script before you can deploy to GitHub Pages. If you fork this repository, you will not have to run the script because it has already been run in this repository.
+```
+gulp build--dev
+gulp watch
+```
+
+### Deploying to Github Pages
+
+You can deploy your website to Github Pages using the deploy script. Before you can use this script, you must first make the dist directory a subtree within your git repository. You can do this using the setupsubtree script. This command should only be executed once per git repository. For example, if you download the source files for this project and create a new repository with those files, you will have to run the setupsubtree script before you can deploy to Github Pages. If you fork this repository, you will not have to run the script because it has already been run in this repository.
 
 ```
 npm run setupsubtree
 ```
 
-The setupsubtree script pushes the dist folder in your master branch to the gh-pages branch. If this branch does not yet exist, it will create it for you. Note that if you make changes locally and run this command it will not have any affect on the gh-pages branch. You must commit these changes and push them before running the command.
+The setupsubtree script pushes the dist folder from your master branch to the gh-pages branch. If this branch does not yet exist, it will create it for you. Note that if you make changes locally and run this command it will not have any affect on the gh-pages branch. You must commit these changes and push them before running the command.
 
 ```
 npm run deploy
