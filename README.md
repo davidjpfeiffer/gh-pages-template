@@ -1,6 +1,6 @@
-# Github Pages Template
+# GitHub Pages Template
 
-A simple, customizable, and free Github Pages template
+A simple, customizable, and free GitHub Pages template
 
 ### Getting Started
 
@@ -60,9 +60,9 @@ gulp build--dev
 gulp watch
 ```
 
-### Deploying to Github Pages
+### Deploying to GitHub Pages
 
-You can deploy your website to Github Pages using the deploy script. Before you can use this script, you must first make the dist directory a subtree within your git repository. You can do this using the setupsubtree script. This command should only be executed once per git repository. For example, if you download the source files for this project and create a new repository with those files, you will have to run the setupsubtree script before you can deploy to Github Pages. If you fork this repository, you will not have to run the script because it has already been run in this repository.
+You can deploy your website to GitHub Pages using the deploy script. Before you can use this script, you must first make the dist directory a subtree within your git repository. You can do this using the setupsubtree script. This command should only be executed once per git repository. For example, if you download the source files for this project and create a new repository with those files, you will have to run the setupsubtree script before you can deploy to GitHub Pages. If you fork this repository, you will not have to run the script because it has already been run in this repository.
 
 ```
 npm run setupsubtree
