@@ -1,4 +1,4 @@
-.top-footer {
+footer {
   background-color: #222;
   color: #eee;
   padding: 20px 0;
@@ -14,11 +14,11 @@
   }
 
   p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   h6 {
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px 0;
     border-bottom: 4px solid #333;
   }
@@ -29,17 +29,5 @@
 
   [class^="col"] {
     padding: 20px;
-  }
-}
-
-.bottom-footer {
-  background-color: #111;
-  padding: 20px 0;
-
-  h6 {
-    font-size: 15px;
-    margin: 0;
-    color: #eee;
-    font-weight: bold;
   }
 }
