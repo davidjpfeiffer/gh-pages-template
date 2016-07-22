@@ -33,7 +33,6 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   background-color: #159957;
-  border-bottom: 4px solid #12834a;
   text-align: center;
   padding: 40px;
   color: #ffffff;
@@ -61,32 +60,33 @@ header {
       header p {
         font-size: 20px; } }
 
-.top-footer {
+footer {
   background-color: #222;
   color: #eee;
   padding: 20px 0;
   font-weight: bold; }
-  .top-footer a {
+  footer a {
     padding: 8px 0;
     display: block; }
-  .top-footer p, .top-footer h6 {
+  footer p, footer h6 {
     margin: 0; }
-  .top-footer p {
-    font-size: 16px; }
-  .top-footer h6 {
-    font-size: 20px;
+  footer p {
+    font-size: 15px; }
+  footer h6 {
+    font-size: 16px;
     padding: 10px 0;
     border-bottom: 4px solid #333; }
-  .top-footer a:hover {
+  footer a:hover {
     text-decoration: none; }
-  .top-footer [class^="col"] {
+  footer [class^="col"] {
     padding: 20px; }
 
-.bottom-footer {
-  background-color: #111;
-  padding: 20px 0; }
-  .bottom-footer h6 {
-    font-size: 15px;
-    margin: 0;
-    color: #eee;
-    font-weight: bold; }
+.call-to-action {
+  background-color: #159957;
+  text-align: center;
+  padding: 35px; }
+  .call-to-action h5 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 0; }
