@@ -20,9 +20,9 @@ npm run serve
 
 ### Scripts
 
-You can run the below scripts in the project directory to accomplish various tasks.
+You can use the below scripts to accomplish various tasks in your project. These scripts are defined in the package.json file. Note that you must run these scripts inside the project directory.
 
-#### Development Builds
+#### Development Build
 
 A development build compiles your SASS to CSS, moves all files from the src directory to the dist directory, and performs other tasks to improve your development environment.
 
@@ -30,7 +30,7 @@ A development build compiles your SASS to CSS, moves all files from the src dire
 npm run build--dev
 ```
 
-#### Production Builds
+#### Production Build
 
 A production build does everything that a development build does, but it also optimizes the files for production. This means concatenating CSS and JS files, minifying HTML, CSS, and JS files, generating sitemaps, and other tasks to make the website fast.
 
