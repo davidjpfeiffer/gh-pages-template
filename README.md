@@ -18,7 +18,7 @@ npm install
 npm run serve
 ```
 
-### Scripts
+## Scripts
 
 You can use the below scripts to accomplish various tasks in your project. These scripts are defined in the package.json file. Note that you must run these scripts inside the project directory.
 
