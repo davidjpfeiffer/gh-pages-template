@@ -4,7 +4,7 @@ A simple, customizable, and free GitHub Pages template
 
 ### Getting Started
 
-This project requires a version of Node greater than or equal to version 4.
+This project requires Node version 4 or higher.
 
 - Download the project from GitHub
 - Navigate to the project directory
@@ -46,15 +46,9 @@ A watch will open the website in a browser and watch for changes. When a file is
 npm run watch
 ```
 
-### Deploying to GitHub Pages
+#### Deploy
 
-You can deploy your website to GitHub Pages using the deploy script. Before you can use this script, you must first make the dist directory a subtree within your git repository. You can do this using the setupsubtree script. This command should only be executed once per git repository. For example, if you download the source files for this project and create a new repository with those files, you will have to run the setupsubtree script before you can deploy to GitHub Pages. If you fork this repository, you will not have to run the script because it has already been run in this repository.
-
-```
-npm run setupsubtree
-```
-
-The setupsubtree script pushes the dist folder from your master branch to the gh-pages branch. If this branch does not yet exist, it will create it for you. Note that if you make changes locally and run this command it will not have any affect on the gh-pages branch. You must commit these changes and push them before running the command.
+You can deploy your website to GitHub Pages using the deploy script. Note that if you make changes locally and run this command it will not have any affect on the gh-pages branch. You must commit your changes and push them before running this command.
 
 ```
 npm run deploy
