@@ -40,7 +40,7 @@ npm run build--prod
 
 #### Watch
 
-A watch will open the website in a browser and watch for changes. When a file is changed, it will re-build only the changed files, inject the updated code into the browser, and refresh the browser for you all within a few miliseconds. You should always run a development build before running a watch.
+A watch will open the website in a browser and watch for changes. When a file is changed, it will re-build only the changed files, inject the updated code into the browser, and refresh the browser for you all within a few miliseconds.
 
 ```
 npm run watch
