@@ -6,7 +6,7 @@ A simple, customizable, and free GitHub Pages template
 
 - Download the project from GitHub
 - Navigate to the project directory
-- Install NPM packages
+- Install packages
 - Run the serve script
 
 ```
@@ -18,7 +18,7 @@ npm run serve
 
 ### Development Environment
 
-This project uses the Node Package Manager (NPM) to manage project dependencies. You must install Node and NPM to build this project. One of the NPM packages that this project uses is a task runner program called Gulp. These development tools help developers rapidly develop and deploy projects to production.
+This project uses Node Package Manager (NPM) to manage project dependencies. You must install Node and NPM to build this project. One of the NPM packages that this project uses is a task runner program called Gulp. These development tools help developers rapidly develop and deploy projects to production.
 
 #### Development Builds
 
