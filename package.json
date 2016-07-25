@@ -4,6 +4,8 @@
   "description": "A simple, customizable, and scalable Github Pages template",
   "main": "gulpfile.js",
   "scripts": {
+    "build--dev": "gulp build--dev",
+    "build--prod": "gulp build--prod",
     "serve": "gulp build--dev && gulp watch",
     "deploy": "git subtree push --prefix dist origin gh-pages",
     "setupsubtree": "git add dist && git commit -m \"Initial dist subtree commit\" && git push"
