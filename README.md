@@ -56,4 +56,9 @@ npm run deploy
 
 All contents are copyright © 2016 David J Pfeiffer.
 
-This project is licensed under the MIT license.
+This project is licensed under the MIT license. You are free to use this project for private and commercial use under the following conditions:
+
+- You link back to this project and give credit for the parts of this project that you used on your homepage
+- You cannot redistribute this software as your own
+- You must state if changes where made
+- You must include a copy of the license
