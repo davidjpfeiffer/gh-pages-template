@@ -1,8 +1,4 @@
-# GitHub Pages Template
-
-A simple, customizable, and free GitHub Pages template
-
-### Getting Started
+## Getting Started
 
 This project requires Node version 4 or higher.
 
@@ -54,7 +50,7 @@ You can deploy your website to GitHub Pages using the deploy script. Note that i
 npm run deploy
 ```
 
-### Legal
+## Legal
 
 All contents are copyright © 2016 David J Pfeiffer.
 
