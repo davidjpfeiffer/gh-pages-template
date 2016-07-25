@@ -1,32 +1,55 @@
 {
-    "paths": {
-        "src": {
-            "html": ["src/index.html"],
-            "styles": ["src/styles/styles.scss"],
-            "scripts": ["src/scripts/**/*.js"],
-            "img": ["src/assets/images/**/*.+(png|jpg|svg)"],
-            "fonts": ["src/assets/fonts/**/*"],
-            "icons": ["src/assets/icons/**/*"],
-            "favicon": "src/assets/favicon/favicon.ico"
-        },
-        "lib": {
-            "styles": ["node_modules/bootstrap/dist/css/bootstrap.min.css"],
-            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js", "node_modules/jquery/dist/jquery.min.js"]
-        },
-        "watch": {
-            "html": ["src/index.html"],
-            "styles": ["src/styles/**/*.scss"],
-            "scripts": ["src/scripts/**/*.js"]
-        },
-        "dist": {
-            "html": "dist",
-            "sitemap": "dist",
-            "styles": "dist/styles",
-            "scripts": "dist/scripts",
-            "img": "dist/assets/images",
-            "fonts": "dist/assets/fonts",
-            "icons": "dist/assets/icons",
-            "favicon": "dist"
-        }
+  "paths": {
+    "src": {
+      "html": [
+        "src/index.html"
+      ],
+      "styles": [
+        "src/styles/styles.scss"
+      ],
+      "scripts": [
+        "src/scripts/**/*.js"
+      ],
+      "img": [
+        "src/assets/images/**/*.+(png|jpg|svg)"
+      ],
+      "fonts": [
+        "src/assets/fonts/**/*"
+      ],
+      "icons": [
+        "src/assets/icons/**/*"
+      ],
+      "favicon": "src/assets/favicon/favicon.ico"
+    },
+    "lib": {
+      "styles": [
+        "node_modules/bootstrap/dist/css/bootstrap.min.css"
+      ],
+      "scripts": [
+        "node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "node_modules/jquery/dist/jquery.min.js"
+      ]
+    },
+    "watch": {
+      "html": [
+        "src/index.html"
+      ],
+      "styles": [
+        "src/styles/**/*.scss"
+      ],
+      "scripts": [
+        "src/scripts/**/*.js"
+      ]
+    },
+    "dist": {
+      "html": "dist",
+      "sitemap": "dist",
+      "styles": "dist/styles",
+      "scripts": "dist/scripts",
+      "img": "dist/assets/images",
+      "fonts": "dist/assets/fonts",
+      "icons": "dist/assets/icons",
+      "favicon": "dist"
     }
+  }
 }

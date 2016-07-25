@@ -17,11 +17,11 @@ let sitemap = require('gulp-sitemap');
 let fs = require('fs');
 let config = JSON.parse(fs.readFileSync('./gulp.config.json'));
 
-gulp.task('build--dev', 'Build all files for development environment.', () => {
+gulp.task('build-dev', 'Build all files for development environment.', () => {
   runSequence('clean', 'build');
 });
 
-gulp.task('build--prod', 'Build all files for production environment.', () => {
+gulp.task('build-prod', 'Build all files for production environment.', () => {
   runSequence('clean', 'build', 'minify', 'inline', 'build-favicon', 'build-sitemap');
 });
 
