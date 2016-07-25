@@ -1,6 +1,8 @@
-## Getting Started
+# GitHub Pages Template
 
-This project requires Node version 4 or higher.
+A simple, customizable, and free GitHub Pages template
+
+## Getting Started
 
 - Download the project from GitHub
 - Navigate to the project directory
