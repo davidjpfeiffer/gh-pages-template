@@ -4,6 +4,8 @@ A simple, customizable, and free GitHub Pages template
 
 ### Getting Started
 
+This project requires a version of Node greater than or equal to version 4.
+
 - Download the project from GitHub
 - Navigate to the project directory
 - Install packages
@@ -16,16 +18,16 @@ npm install
 npm run serve
 ```
 
-### Development Environment
+### Scripts
 
-This project uses Node Package Manager (NPM) to manage project dependencies. You must install Node and NPM to build this project. One of the NPM packages that this project uses is a task runner program called Gulp. These development tools help developers rapidly develop and deploy projects to production.
+You can run the below scripts in the project directory to accomplish various tasks.
 
 #### Development Builds
 
 A development build compiles your SASS to CSS, moves all files from the src directory to the dist directory, and performs other tasks to improve your development environment.
 
 ```
-gulp build--dev
+npm run build--dev
 ```
 
 #### Production Builds
@@ -33,31 +35,15 @@ gulp build--dev
 A production build does everything that a development build does, but it also optimizes the files for production. This means concatenating CSS and JS files, minifying HTML, CSS, and JS files, generating sitemaps, and other tasks to make the website fast.
 
 ```
-gulp build--prod
+npm run build--prod
 ```
 
 #### Watch
 
-The Gulp watch task will open the website in a browser and watch for changes. When a file is changed, it will re-build only the changed files, inject the updated code into the browser, and refresh the browser for you all within a few miliseconds. You should always run a development build before a Gulp watch.
+A watch will open the website in a browser and watch for changes. When a file is changed, it will re-build only the changed files, inject the updated code into the browser, and refresh the browser for you all within a few miliseconds. You should always run a development build before running a watch.
 
 ```
-gulp build--dev
-gulp watch
-```
-
-#### NPM Scripts
-
-You can use NPM scripts to execute multiple commands with a single command. This includes any command or collection of commands that you can execute in a command prompt. NPM scripts are defined in the package.json file. An example of an NPM script is the serve script that runs a gulp build--dev and a gulp watch.
-
-```
-npm run serve
-```
-
-is equivalent to
-
-```
-gulp build--dev
-gulp watch
+npm run watch
 ```
 
 ### Deploying to GitHub Pages
