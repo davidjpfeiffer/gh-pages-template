@@ -25,7 +25,7 @@ You can use the below scripts to accomplish various tasks in your project. These
 A development build compiles your SASS to CSS, moves all files from the src directory to the dist directory, and performs other tasks to improve your development environment.
 
 ```
-npm run build--dev
+npm run build-dev
 ```
 
 #### Production Build
@@ -33,7 +33,7 @@ npm run build--dev
 A production build does everything that a development build does, but it also optimizes the files for production. This means concatenating CSS and JS files, minifying HTML, CSS, and JS files, generating sitemaps, and other tasks to make the website fast.
 
 ```
-npm run build--prod
+npm run build-prod
 ```
 
 #### Watch
