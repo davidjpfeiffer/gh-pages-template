@@ -10,7 +10,7 @@ A simple, customizable, and free GitHub Pages template
 - Run the serve script
 
 ```
-git pull https://github.com/davidjpfeiffer/gh-pages-template/
+git clone https://github.com/davidjpfeiffer/gh-pages-template
 cd gh-pages-template
 npm install
 npm run serve
